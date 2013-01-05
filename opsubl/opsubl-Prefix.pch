@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'opsubl' target in the 'opsubl' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

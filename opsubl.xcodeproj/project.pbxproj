@@ -11,8 +11,7 @@
 		AB4B63B21698A5050061C7B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB4B63B01698A5050061C7B7 /* InfoPlist.strings */; };
 		AB4B63B41698A5050061C7B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4B63B31698A5050061C7B7 /* main.m */; };
 		AB4B63B81698A5050061C7B7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AB4B63B61698A5050061C7B7 /* Credits.rtf */; };
-		AB4B63BB1698A5060061C7B7 /* opsublAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4B63BA1698A5060061C7B7 /* opsublAppDelegate.m */; };
-		AB4B63BE1698A5060061C7B7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB4B63BC1698A5060061C7B7 /* MainMenu.xib */; };
+		ABCB4A8916992D7E00EDEFA7 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCB4A8816992D7E00EDEFA7 /* ScriptingBridge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +25,7 @@
 		AB4B63B31698A5050061C7B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB4B63B51698A5050061C7B7 /* opsubl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opsubl-Prefix.pch"; sourceTree = "<group>"; };
 		AB4B63B71698A5050061C7B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		AB4B63B91698A5060061C7B7 /* opsublAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = opsublAppDelegate.h; sourceTree = "<group>"; };
-		AB4B63BA1698A5060061C7B7 /* opsublAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = opsublAppDelegate.m; sourceTree = "<group>"; };
-		AB4B63BD1698A5060061C7B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ABCB4A8816992D7E00EDEFA7 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABCB4A8916992D7E00EDEFA7 /* ScriptingBridge.framework in Frameworks */,
 				AB4B63A81698A5050061C7B7 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +44,7 @@
 		AB4B63981698A5050061C7B7 = {
 			isa = PBXGroup;
 			children = (
+				ABCB4A8816992D7E00EDEFA7 /* ScriptingBridge.framework */,
 				AB4B63AD1698A5050061C7B7 /* opsubl */,
 				AB4B63A61698A5050061C7B7 /* Frameworks */,
 				AB4B63A41698A5050061C7B7 /* Products */,
@@ -82,9 +81,6 @@
 		AB4B63AD1698A5050061C7B7 /* opsubl */ = {
 			isa = PBXGroup;
 			children = (
-				AB4B63B91698A5060061C7B7 /* opsublAppDelegate.h */,
-				AB4B63BA1698A5060061C7B7 /* opsublAppDelegate.m */,
-				AB4B63BC1698A5060061C7B7 /* MainMenu.xib */,
 				AB4B63AE1698A5050061C7B7 /* Supporting Files */,
 			);
 			path = opsubl;
@@ -156,7 +152,6 @@
 			files = (
 				AB4B63B21698A5050061C7B7 /* InfoPlist.strings in Resources */,
 				AB4B63B81698A5050061C7B7 /* Credits.rtf in Resources */,
-				AB4B63BE1698A5060061C7B7 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +163,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB4B63B41698A5050061C7B7 /* main.m in Sources */,
-				AB4B63BB1698A5060061C7B7 /* opsublAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,14 +183,6 @@
 				AB4B63B71698A5050061C7B7 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		AB4B63BC1698A5060061C7B7 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB4B63BD1698A5060061C7B7 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -298,6 +284,7 @@
 				AB4B63C31698A5060061C7B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

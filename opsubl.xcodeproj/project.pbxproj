@@ -12,6 +12,7 @@
 		AB4B63B41698A5050061C7B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4B63B31698A5050061C7B7 /* main.m */; };
 		AB4B63B81698A5050061C7B7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AB4B63B61698A5050061C7B7 /* Credits.rtf */; };
 		ABCB4A8916992D7E00EDEFA7 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCB4A8816992D7E00EDEFA7 /* ScriptingBridge.framework */; };
+		ABCB4A92169943B600EDEFA7 /* opsubl.iconset in Resources */ = {isa = PBXBuildFile; fileRef = ABCB4A91169943B600EDEFA7 /* opsubl.iconset */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AB4B63B51698A5050061C7B7 /* opsubl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opsubl-Prefix.pch"; sourceTree = "<group>"; };
 		AB4B63B71698A5050061C7B7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		ABCB4A8816992D7E00EDEFA7 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		ABCB4A91169943B600EDEFA7 /* opsubl.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = opsubl.iconset; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +46,6 @@
 		AB4B63981698A5050061C7B7 = {
 			isa = PBXGroup;
 			children = (
-				ABCB4A8816992D7E00EDEFA7 /* ScriptingBridge.framework */,
 				AB4B63AD1698A5050061C7B7 /* opsubl */,
 				AB4B63A61698A5050061C7B7 /* Frameworks */,
 				AB4B63A41698A5050061C7B7 /* Products */,
@@ -62,6 +63,7 @@
 		AB4B63A61698A5050061C7B7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ABCB4A8816992D7E00EDEFA7 /* ScriptingBridge.framework */,
 				AB4B63A71698A5050061C7B7 /* Cocoa.framework */,
 				AB4B63A91698A5050061C7B7 /* Other Frameworks */,
 			);
@@ -89,6 +91,7 @@
 		AB4B63AE1698A5050061C7B7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				ABCB4A91169943B600EDEFA7 /* opsubl.iconset */,
 				AB4B63AF1698A5050061C7B7 /* opsubl-Info.plist */,
 				AB4B63B01698A5050061C7B7 /* InfoPlist.strings */,
 				AB4B63B31698A5050061C7B7 /* main.m */,
@@ -152,6 +155,7 @@
 			files = (
 				AB4B63B21698A5050061C7B7 /* InfoPlist.strings in Resources */,
 				AB4B63B81698A5050061C7B7 /* Credits.rtf in Resources */,
+				ABCB4A92169943B600EDEFA7 /* opsubl.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
